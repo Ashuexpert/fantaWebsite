@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roberto' ;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(255, 89, 0);
+}
+nav{
+    position: fixed;
+    display: flex;
+    padding: 0vw 10vw;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    z-index: 99;
+}
+
+nav a,i{
+    color: #fff;
+    
+    font-size: 1vw;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover,i:hover{
+    /* background-color: #ffefd8;
+    padding: 5px; */
+    border-radius: 50px;
+    color: #d54000;
+    transition: cubic-bezier(5.19,15,3.22);
+}
+nav #logo{
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    font-size: 1.5vw;
+    z-index: 3;
+    /* color: black; */
+}
+
+.one{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(150deg,rgb(255, 153, 0),#ff6600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* #fanta1{
+    height: 70vh;
+    width: 40%;
+    z-index: 2;
+} */
+#fanta{
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+    transition: cubic-bezier(0.19,1,0.22);
+}
+#orange-cut{
+    top: 6%;
+    left: 35%;
+    width: 15%;
+    position: absolute;
+    z-index: 1;
+    transition: cubic-bezier(0.19,1,0.22);
+}
+#orange{
+    width: 18%;
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    right: 33%;
+    transition: cubic-bezier(0.19,1,0.22);
+}
+.one h1{
+    font-size: 25vw;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 900; */
+    color: #fff;
+}
+#leaf{
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 5%;
+    transition: cubic-bezier(0.19,1,0.22);
+}
+
+#coconut-leaf{
+    position: absolute;
+    width: 20%;
+    top: 0%;
+    right: 0%;
+    /* z-index:1; */
+
+}
+
+#leaf2{
+    position: absolute;
+    width: 15%;
+    right:7%;
+    top: 60%;
+    transform: rotate(23deg);
+    transition: cubic-bezier(0.19,1,0.22);
+}
+
+.two{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background: -webkit-radial-gradient(#ffaa01,#ff5500); */
+    background-color: rgb(100, 12, 27);
+}
+
+.lft-two , .rght-two{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.lft-two svg{
+    width: 50%;
+    /* top: 50%;
+    left:10%; */
+    transform: rotateX(40deg);
+    margin-top: 45vh;
+    color: #9c3002;
+}
+
+.rght-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.rght-two h1{
+    font-size: 5vw;
+    margin-bottom: 1.8vw;
+}
+.rght-two p{
+    width: 86%;
+}
+
+.three{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-80deg,#ff6600,#e38800);
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.three .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    margin-top: 15vh;
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    gap: 1.8vh;
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 48vh;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.card button{
+    font-size: 1vw;
+    padding: 1vw 1.7vw;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #ff9900;
+}
+.card button:hover{
+    background: linear-gradient(#ff0000f1,#ff9900);
+}
+#pepsi{
+    position: absolute;
+    width: 16%;
+    margin-top: -12%;
+    transition: cubic-bezier(0.19,1,0.22);
+}
+
+#fantab{
+    position: absolute;
+    width: 35.5%;
+    margin-top: -12%;
+}
+.lemon{
+    width: 25vw;
+    top: -3%;
+    position: absolute;
+    
+    transition: cubic-bezier(0.19,1,0.22);
+}
+
+#cocacola{
+    position: absolute;
+    width: 15%;
+    margin-top: -12%;
+    
+    transition: cubic-bezier(0.19,1,0.22);
+}
+
+.three h4{
+    position: absolute;
+    top: 96%;
+    color: #ffe8de;
+}
+
+.three a{
+    text-decoration: none;
+    color: white;
+}
+.three a:hover{
+    color: #e5ff00;
+}
